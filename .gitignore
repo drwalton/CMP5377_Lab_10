@@ -23,6 +23,7 @@
 *.dll
 *.so.*
 
+
 # Fortran module files
 *.mod
 *.smod
@@ -66,3 +67,18 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+build/
+*/.vs/*
+
+!3rdParty/SDL3_image-3.4.4/lib/x64/*.lib
+!3rdParty/SDL3_image-3.4.4/lib/x64/*.dll
+
+!3rdParty/SDL3_net-3.2.0/lib/x64/*.lib
+!3rdParty/SDL3_net-3.2.0/lib/x64/*.dll
+
+!3rdParty/SDL3_ttf-3.2.2/lib/x64/*.lib
+!3rdParty/SDL3_ttf-3.2.2/lib/x64/*.dll
+
+!3rdParty/SDL3-3.4.2/lib/x64/*.lib
+!3rdParty/SDL3-3.4.2/lib/x64/*.dll
